@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import FormDisplay from './Assignment3/form'
+// import Back from './Assignment3/back';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{color:'white' ,marginBottom:'10px'}}>EMPLOYEE FEEDBACK FORM</h1>
+
+      <FormDisplay/>
     </div>
   );
 }
